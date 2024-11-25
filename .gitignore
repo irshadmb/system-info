@@ -19,3 +19,5 @@ go.sum text eol=lf
 *.dll binary
 *.so binary
 *.dylib binary
+
+main.exe
