@@ -1,33 +1,21 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Auto detect text files and perform LF normalization
+* text=auto
 
-# Test binary, built with `go test -c`
-*.test
+# Go files
+*.go text eol=lf
+go.mod text eol=lf
+go.sum text eol=lf
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
 
-# Dependency directories (remove the comment below to include it)
-vendor/
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
 
-# Go workspace file
-go.work
-
-# IDE specific files
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Ignore binary files
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
