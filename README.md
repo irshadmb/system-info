@@ -19,7 +19,7 @@ A Go application that collects detailed system information using Windows Managem
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/system-info.git
+git clone https://github.com/irshadmb/system-info.git
 cd system-info
 ```
 
