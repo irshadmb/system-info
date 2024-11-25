@@ -15,9 +15,8 @@ go.sum text eol=lf
 *.bat text eol=crlf
 
 # Ignore binary files
-*.exe binary
-*.dll binary
-*.so binary
-*.dylib binary
+*.exe
+*.out
+*.bin
 
 main.exe
